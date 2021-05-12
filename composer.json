@@ -1,0 +1,22 @@
+{
+  "name": "vendor_name/baison",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "85464",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "bsexception/dev": "2.3.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "System\\": "system",
+      "Controllers\\": "application/Controllers",
+      "Models\\": "application/Models"
+    }
+  }
+}

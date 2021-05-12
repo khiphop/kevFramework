@@ -1,0 +1,40 @@
+[
+    {
+        "name": "bsexception/dev",
+        "version": "v2.3",
+        "version_normalized": "2.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/khiphop/composer_error_test.git",
+            "reference": "df7a907199776cd5ca4881971ee3182c3e75929f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/khiphop/composer_error_test/zipball/df7a907199776cd5ca4881971ee3182c3e75929f",
+            "reference": "df7a907199776cd5ca4881971ee3182c3e75929f",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "time": "2021-01-06T07:05:50+00:00",
+        "type": "l",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Bsexception\\Dev\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "zhangbb",
+                "email": "854641898@qq.com"
+            }
+        ],
+        "description": "error catch"
+    }
+]
