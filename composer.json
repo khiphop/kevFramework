@@ -10,7 +10,8 @@
     }
   ],
   "require": {
-    "bsexception/dev": "2.3.*"
+    "bsexception/dev": "2.3.*",
+    "bjphp/log": "1.5"
   },
   "autoload": {
     "psr-4": {

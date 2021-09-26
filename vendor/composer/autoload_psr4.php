@@ -10,4 +10,5 @@ return array(
     'Models\\' => array($baseDir . '/application/Models'),
     'Controllers\\' => array($baseDir . '/application/Controllers'),
     'Bsexception\\Dev\\' => array($vendorDir . '/bsexception/dev'),
+    'BjphpLog\\' => array($vendorDir . '/bjphp/log/src'),
 );

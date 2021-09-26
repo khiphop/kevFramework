@@ -22,6 +22,7 @@ class ComposerStaticInit8434e788cabed377c68ace504a0dae94
         'B' => 
         array (
             'Bsexception\\Dev\\' => 16,
+            'BjphpLog\\' => 9,
         ),
     );
 
@@ -42,6 +43,14 @@ class ComposerStaticInit8434e788cabed377c68ace504a0dae94
         array (
             0 => __DIR__ . '/..' . '/bsexception/dev',
         ),
+        'BjphpLog\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/bjphp/log/src',
+        ),
+    );
+
+    public static $classMap = array (
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
@@ -49,6 +58,7 @@ class ComposerStaticInit8434e788cabed377c68ace504a0dae94
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit8434e788cabed377c68ace504a0dae94::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit8434e788cabed377c68ace504a0dae94::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit8434e788cabed377c68ace504a0dae94::$classMap;
 
         }, null, ClassLoader::class);
     }

@@ -4,8 +4,51 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0b07932ec9cc035639d3e57292058908",
+    "content-hash": "06982a394783de98296a0cb1961648f3",
     "packages": [
+        {
+            "name": "bjphp/log",
+            "version": "1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/khiphop/bjphplog.git",
+                "reference": "d49e27bb661ac95a3af8e308210ddb661d3c1ea5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/khiphop/bjphplog/zipball/d49e27bb661ac95a3af8e308210ddb661d3c1ea5",
+                "reference": "d49e27bb661ac95a3af8e308210ddb661d3c1ea5",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "ext-json": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BjphpLog\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "zhangbb",
+                    "email": "854641898@qq.com"
+                }
+            ],
+            "description": "bj's log composer",
+            "support": {
+                "issues": "https://github.com/khiphop/bjphplog/issues",
+                "source": "https://github.com/khiphop/bjphplog/tree/1.5"
+            },
+            "time": "2021-09-23T03:22:04+00:00"
+        },
         {
             "name": "bsexception/dev",
             "version": "v2.3",
@@ -51,5 +94,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.1.0"
 }

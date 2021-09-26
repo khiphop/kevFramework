@@ -1,40 +1,91 @@
-[
-    {
-        "name": "bsexception/dev",
-        "version": "v2.3",
-        "version_normalized": "2.3.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/khiphop/composer_error_test.git",
-            "reference": "df7a907199776cd5ca4881971ee3182c3e75929f"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/khiphop/composer_error_test/zipball/df7a907199776cd5ca4881971ee3182c3e75929f",
-            "reference": "df7a907199776cd5ca4881971ee3182c3e75929f",
-            "shasum": "",
-            "mirrors": [
-                {
-                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
-                    "preferred": true
+{
+    "packages": [
+        {
+            "name": "bjphp/log",
+            "version": "1.5",
+            "version_normalized": "1.5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/khiphop/bjphplog.git",
+                "reference": "d49e27bb661ac95a3af8e308210ddb661d3c1ea5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/khiphop/bjphplog/zipball/d49e27bb661ac95a3af8e308210ddb661d3c1ea5",
+                "reference": "d49e27bb661ac95a3af8e308210ddb661d3c1ea5",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "ext-json": "*"
+            },
+            "time": "2021-09-23T03:22:04+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "BjphpLog\\": "src/"
                 }
-            ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "zhangbb",
+                    "email": "854641898@qq.com"
+                }
+            ],
+            "description": "bj's log composer",
+            "support": {
+                "issues": "https://github.com/khiphop/bjphplog/issues",
+                "source": "https://github.com/khiphop/bjphplog/tree/1.5"
+            },
+            "install-path": "../bjphp/log"
         },
-        "time": "2021-01-06T07:05:50+00:00",
-        "type": "l",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Bsexception\\Dev\\": ""
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "authors": [
-            {
-                "name": "zhangbb",
-                "email": "854641898@qq.com"
-            }
-        ],
-        "description": "error catch"
-    }
-]
+        {
+            "name": "bsexception/dev",
+            "version": "v2.3",
+            "version_normalized": "2.3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/khiphop/composer_error_test.git",
+                "reference": "df7a907199776cd5ca4881971ee3182c3e75929f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/khiphop/composer_error_test/zipball/df7a907199776cd5ca4881971ee3182c3e75929f",
+                "reference": "df7a907199776cd5ca4881971ee3182c3e75929f",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "time": "2021-01-06T07:05:50+00:00",
+            "type": "l",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Bsexception\\Dev\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "zhangbb",
+                    "email": "854641898@qq.com"
+                }
+            ],
+            "description": "error catch",
+            "install-path": "../bsexception/dev"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
